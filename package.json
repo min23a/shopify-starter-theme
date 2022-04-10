@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/style.scss:assets/theme.css.liquid",
+    "serve" : "shopify theme serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/min23a/shopify-starter-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/min23a/shopify-starter-theme/issues"
+  },
+  "homepage": "https://github.com/min23a/shopify-starter-theme#readme",
+  "dependencies": {
+    "sass": "^1.50.0"
+  }
+}

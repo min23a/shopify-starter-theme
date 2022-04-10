@@ -14,3 +14,15 @@ shopify theme init [ NAME OF YOUR THEME ] --clone-url https://github.com/min23a/
 ```
 
 If you don't have Shopify CLI installed to your computer, navigate to the [installation page of Shopify CLI](https://shopify.dev/themes/tools/cli/installation).
+
+## Commands
+-to start sass in watch mode
+```sh
+npm run sass
+```
+
+-to start theme serve
+```sh
+npm run serve
+```
+## NOTE : you must Log in using shopify cli login system before serve.
